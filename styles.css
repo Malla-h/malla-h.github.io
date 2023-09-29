@@ -7,18 +7,19 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: white;
 
 }
 
 html{
     background-color: #121212;
     background-image: radial-gradient(circle, #1c283a 50%, transparent 50%);
-    background-size: 12px 12px;
+    background-size: 16px 16px;
 }
 
 header{
     font-family: media-gothic;
-    font-size:x-small;
+    font-size:normal;
     color: white;
     display: flex;
     flex-direction: column;
@@ -38,20 +39,20 @@ header{
 
 .stylish-line{    
     margin: 10px 0px;
-    width: 250px;
+    width: 280px;
     color: white;
 }
 
 
 
 img#avatar{
-    width: 125px;
+    width: 190px;
     border-radius: 50%;    
-    padding: 5px; /*gap between avatar and circle*/    
+    padding: 6px; /*gap between avatar and border*/    
 
     margin: 50px;
     
-    border: 5px solid #e0a347;
+    border: 8px solid #e0a347;
 }
 
 nav{
@@ -72,7 +73,7 @@ nav ul{
     max-width: 50%;
     margin: auto;
     font-family: Helvetica, sans-serif;
-    font-size: larger;
+    font-size: xx-large;
     
     background-color: deeppink;
     
