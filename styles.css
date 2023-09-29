@@ -20,7 +20,7 @@
 
 html {
     background-color: black;
-
+    
 }
 
 header {
@@ -109,8 +109,10 @@ nav a {
 
 main {
     background-color: rgb(151, 34, 116);
-    max-width: 1920px;
+    max-width: 1440px;
     margin: auto;
+    
+    
 
 }
 
@@ -208,7 +210,7 @@ footer{
     display: flex;    
     flex-direction: column;
     justify-content: center;
-    
+    /* background-image: url(https://www.textures4photoshop.com/tex/thumbs/matrix-code-animation-gif-free-animated-background-716.gif); */
 }
 footer h1{
     text-align: center;
