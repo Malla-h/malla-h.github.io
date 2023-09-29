@@ -1,0 +1,83 @@
+@font-face{
+    font-family: media-gothic;
+    src:url(Media-Gothic.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html{
+    background-color: #121212;
+    background-image: radial-gradient(circle, #1c283a 50%, transparent 50%);
+    background-size: 12px 12px;
+}
+
+header{
+    font-family: media-gothic;
+    font-size:x-small;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-shadow: 1px 1px 1px rgba(146, 38, 120, 0.961);
+
+    border: solid green 2px;
+   
+    /* height: 540px; */
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
+}
+
+.stylish-line{    
+    margin: 10px 0px;
+    width: 250px;
+    color: white;
+}
+
+
+
+img#avatar{
+    width: 125px;
+    border-radius: 50%;    
+    padding: 5px; /*gap between avatar and circle*/    
+
+    margin: 50px;
+    
+    border: 5px solid #e0a347;
+}
+
+nav{
+    background-color: #1a3a6a;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+
+    
+    
+    
+    
+}
+nav ul{    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    
+    background-color: deeppink;
+    
+    
+
+
+}
+
