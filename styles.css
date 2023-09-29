@@ -1,45 +1,62 @@
 @font-face{
     font-family: media-gothic;
-    src:url(Media-Gothic.ttf);
+    src:url(fonts/Media-Gothic.ttf);        
+}
+@font-face{
+    font-family: CheyenneSans-Bold;
+    src:url(fonts/CheyenneSans-Bold.ttf);        
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
     color: white;
+    
 
 }
 
 html{
-    background-color: #121212;
-    background-image: radial-gradient(circle, #1c283a 50%, transparent 50%);
-    background-size: 16px 16px;
+    background-color: black;
+    
 }
 
 header{
     font-family: media-gothic;
     font-size:normal;
-    color: white;
+    
     display: flex;
     flex-direction: column;
-    width: 100%;
+    height: calc(100vh - 50px);
+    min-height: 440px;
     align-items: center;
-    text-shadow: 1px 1px 1px rgba(146, 38, 120, 0.961);
+    justify-content: center;
+    
+    text-shadow: 2px 2px 1px rgba(146, 38, 120, 0.961);
 
-    border: solid green 2px;
-   
-    /* height: 540px; */
+    background-color: #121212;
+    background-image: radial-gradient(circle, #1c283a 50%, transparent 50%);
+    background-size: 16px 16px;
+        /* border: solid green 2px; */
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */    
     
     
 }
 
+
 .stylish-line{    
     margin: 10px 0px;
     width: 280px;
+    color: white;
+}
+
+.separator{
+    margin: 10px 0px;
+    width: 180px;
     color: white;
 }
 
@@ -52,33 +69,62 @@ img#avatar{
 
     margin: 50px;
     
-    border: 8px solid #e0a347;
+    border: 8px solid #e6b368;    
 }
 
 nav{
-    background-color: #1a3a6a;
+    background-color: #397a98a9;
     color: white;
     list-style-type: none;
-    align-items: center;
-
-    
-    
-    
-    
+    display: flex;    
+    align-items: center;     
+    height: 50px;
 }
+
 nav ul{    
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    max-width: 50%;
+    /* max-width: 50%; */
     margin: auto;
-    font-family: Helvetica, sans-serif;
-    font-size: xx-large;
+    width: 800px;
+    font-family: 'CheyenneSans-Bold';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: large;
+    padding-left: 30px;
+    padding-right: 30px;
     
-    background-color: deeppink;
+    /* background-color: deeppink; */
     
-    
-
-
 }
 
+main{
+    background-color: rgb(151, 34, 116);
+    max-width: 1920px;
+    margin: auto;
+    
+}
+
+.bigstuff{
+    display: flex;
+    padding: 60px;
+    
+    
+    max-width: 500x;
+}
+
+section{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.navtitle{
+    font-family: 'CheyenneSans-Bold';
+    text-transform: uppercase;
+}
+
+section h2{
+    padding-top: 30px;
+    text-align: justify;
+}
