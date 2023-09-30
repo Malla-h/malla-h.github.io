@@ -24,6 +24,7 @@ html {
 }
 
 header {
+    
     color: white;
     font-family: media-gothic;
     font-size: normal;
@@ -36,6 +37,7 @@ header {
     justify-content: center;
 
     text-shadow: 2px 3px 1px rgba(146, 38, 120, 0.961);
+    text-transform: uppercase;
 
     background-color: #121212;
     background-image: radial-gradient(circle, #1c283a 50%, transparent 50%);    
@@ -45,14 +47,11 @@ header {
     background-size: cover;
     background-position: center;
     
-    background-
+    
     
     /* border: solid green 2px; */
-
     /* padding-top: 100px;
     padding-bottom: 100px; */
-
-
 }
 
 
@@ -63,7 +62,7 @@ img#avatar {
     padding: 6px;
     /*gap between avatar and border*/
     margin: 50px;
-    border: 8px solid #d58a18;
+    border: 3px solid #d58a18;
 }
 
 .stylish-line {
