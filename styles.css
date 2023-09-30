@@ -20,6 +20,7 @@
 
 html {
     background-color: black;
+    scroll-behavior: smooth;
     
 }
 
@@ -82,12 +83,15 @@ img#avatar {
 
 
 nav {
-    background-color: #397a98a9;
+    background-color: #265165;
     color: white;
     list-style-type: none;
     display: flex;
     align-items: center;
     height: 50px;
+    position: sticky;
+    top: 0;
+    
 }
 
 nav ul {
@@ -104,6 +108,7 @@ nav ul {
     font-size: large;
     padding-left: 30px;
     padding-right: 30px;
+    
 
 
     /* background-color: deeppink; */
@@ -112,7 +117,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;    
 }
 
 main {
@@ -129,7 +134,7 @@ main {
     padding: 60px;
     max-width: 500x;
     color: white;
-
+    scroll-margin-top: 50px;
 }
 
 section {
