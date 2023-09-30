@@ -152,9 +152,6 @@ main {
     background-color: rgb(151, 34, 116);
     max-width: 1440px;
     margin: auto;
-
-
-
 }
 
 .bigstuff {
@@ -164,11 +161,24 @@ main {
     color: white;
     scroll-margin-top: 50px;
 }
+.bigstuff img{
+    width: 100%;
+}
+
 
 section {
     padding-left: 80px;
     padding-right: 80px;
 }
+
+.imgsection{
+    display: flex;   
+    align-items: center;
+}
+.textsection{    
+    
+}
+
 
 .navtitle {
     font-family: 'CheyenneSans-Bold';
