@@ -35,11 +35,18 @@ header {
     align-items: center;
     justify-content: center;
 
-    text-shadow: 2px 2px 1px rgba(146, 38, 120, 0.961);
+    text-shadow: 2px 3px 1px rgba(146, 38, 120, 0.961);
 
     background-color: #121212;
-    background-image: radial-gradient(circle, #1c283a 50%, transparent 50%);
-    background-size: 16px 16px;
+    background-image: radial-gradient(circle, #1c283a 50%, transparent 50%);    
+    /* background-size: 16px 16px; */
+    background:rgba(0,0,0,0.6) url(images/Darkness-in-Los-Angeles-2560x1600.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    
+    background-
+    
     /* border: solid green 2px; */
 
     /* padding-top: 100px;
@@ -47,6 +54,8 @@ header {
 
 
 }
+
+
 
 img#avatar {
     width: 190px;
