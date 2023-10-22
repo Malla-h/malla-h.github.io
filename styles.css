@@ -178,6 +178,11 @@ main {
     width: 100%;
 }
 
+/* Margin between divisor and text*/
+.bigstuff hr {
+    margin-bottom: 15px;
+}
+
 
 section {
     padding-left: 80px;
@@ -205,10 +210,7 @@ section p {
     text-align: justify;
 }
 
-/* Margin between divisor and text*/
-.bigstuff hr {
-    margin-bottom: 30px;
-}
+
 
 #services {
     background-color: #1e2a40;
