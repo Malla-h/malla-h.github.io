@@ -159,6 +159,11 @@ nav ul {
 nav a {
     text-decoration: none;
     color: inherit;
+    transition: all 0.2s;
+}
+
+nav a:hover {    
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
 }
 
 main {
@@ -259,7 +264,14 @@ section p {
     padding: 3px;
     border: solid #d58a18;
     border-radius: 100%;
+    transition: all 0.3s;
 }
+.roundlinks a:hover{
+    border: solid rgba(52, 152, 219, 1);
+}
+
+
+
 
 #languagechanger a {
     height: 80px;
